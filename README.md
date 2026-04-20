@@ -3,7 +3,7 @@ This Crowd Density Monitor uses YOLOv8 and PPO Reinforcement Learning for smart 
 
 An intelligent crowd density estimation system that combines YOLOv8 computer vision with Reinforcement Learning (PPO) to optimize processing efficiency based on real-time congestion.
 
-**Features** 
+## Features
 
 * **Live ROI Selection:** Interactive polygon drawing to define monitoring zones.
 
@@ -13,7 +13,7 @@ An intelligent crowd density estimation system that combines YOLOv8 computer vis
 
 * **Visual Feedback:** Real-time status alerts (Empty, Low, Normal, Crowded) with color-coded overlays.
 
-**Technical Architecture**
+## Technical Architecture
 
 * **Detection Layer:** YOLOv8 (Nano) identifies individuals.
 
@@ -21,7 +21,7 @@ An intelligent crowd density estimation system that combines YOLOv8 computer vis
 
 * **Intelligence Layer:** A Gymnasium-based environment feeds density data to a PPO agent, which selects the optimal frame-processing interval.
 
-**Hardware & Software Requirements**
+## Hardware & Software Requirements
 
 * Python 3.8+
 
@@ -30,7 +30,7 @@ An intelligent crowd density estimation system that combines YOLOv8 computer vis
 * Hardware: Webcam or RTSP stream (Tested on PC for maximum ML throughput).
 
 
-**Usage**
+## Usage
 
 1. Run the script: crowd_density.ipynb
 
@@ -40,7 +40,7 @@ An intelligent crowd density estimation system that combines YOLOv8 computer vis
 
 4. Monitor: The system will start tracking. Press q to exit.
 
-**Future Scope**
+## Future Scope
 
 * Training the RL agent on historical traffic data for better predictive intervals.
 
